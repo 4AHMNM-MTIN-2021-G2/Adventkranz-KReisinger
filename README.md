@@ -1,7 +1,7 @@
 # Adventkranz
 
 ### Project description: 
-A recap Project where we will create a little countwdown until christmas with a visual advent wreath.
+A recap Project where we will create a little countdown until christmas with a visual advent wreath.
 
 ### Development platform: 
 * Windows 10
