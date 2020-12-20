@@ -13,7 +13,7 @@ A recap Project where we will create a little countdown until christmas with a v
 
 ### Visuals: 
 <div>
-<img src = "./Screenshots/skizze.PNG" >
+<img src = "./Screenshots/skizze.png" >
 </div>
 
 ### Necessary setup/execution steps: 
