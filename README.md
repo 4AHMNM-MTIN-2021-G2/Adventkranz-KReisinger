@@ -11,6 +11,10 @@ A recap Project where we will create a little countdown until christmas with a v
 ### Target platform: 
 * 2d WebGL (960 x 600) 
 
+### Visuals: 
+<div>
+<img src = "./Screenshots/skizze.png" >
+</div>
 
 ### Necessary setup/execution steps: 
 none
