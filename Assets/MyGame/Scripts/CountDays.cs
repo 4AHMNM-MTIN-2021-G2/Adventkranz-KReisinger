@@ -24,7 +24,7 @@ public class CountDays : MonoBehaviour
         fourthAdvent = new System.DateTime(2020, 12, 20);
 
         TotalDaysToChristmas();
-
+        
     }
     private void TotalDaysToChristmas() {
         while(currentDay.CompareTo(christmasDay) < 0)
