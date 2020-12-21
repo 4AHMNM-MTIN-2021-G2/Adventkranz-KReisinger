@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class CountDays : MonoBehaviour
 {
     public Text daysGui;
-
     System.DateTime christmasDay; 
     System.DateTime firstAdvent;
     System.DateTime secondAdvent;
@@ -16,7 +15,6 @@ public class CountDays : MonoBehaviour
 
     private int days = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         christmasDay = new System.DateTime(2020, 12, 24);
@@ -31,15 +29,6 @@ public class CountDays : MonoBehaviour
             currentDay = currentDay.AddDays(1);
             days ++;
         }
-
-        Debug.Log(days);
         daysGui.text = days.ToString();
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
