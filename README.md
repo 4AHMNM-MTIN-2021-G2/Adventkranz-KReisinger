@@ -32,5 +32,9 @@ NO
 * Unity UI Building
 * Github Revision
 
+* Scriptable Objects <br>
+What is a SC? = A Scriptable Object is a data container able to save a large amount of data in a convienient way. <br>
+Why do we use a SC? = With using a SC or Scriptable Object we can avoid dublicated data. We can create it and reference to it from multible objects. <br>
+How do you create a SC? =  You have to create a script which inherits from ScriptableObject class insted of MonoBehaviour.<br>
 
 Copyright by Kilian
