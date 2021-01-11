@@ -24,7 +24,9 @@ public class CountDays : MonoBehaviour
         thirdAdvent = new DateTime(2020, 12, 13);
         fourthAdvent = new DateTime(2020, 12, 20);
  
-        TotalDaysToChristmas();
+        // TotalDaysToChristmas();
+
+        daysGui.text = TotalDaysToChristmasV4().ToString();
         
     }
     private void TotalDaysToChristmas() {
@@ -34,5 +36,41 @@ public class CountDays : MonoBehaviour
             days ++;
         }
         daysGui.text = days.ToString();
+    }
+    
+
+    private void TotalDaysToChristmasV1()
+    {
+        while (currentDay.CompareTo(christmasDay) < 0)
+        {
+            currentDay = currentDay.AddDays(1);
+            days++;
+        }
+        daysGui.text = days.ToString();
+    }
+
+    private void TotalDaysToChristmasV2()
+    {
+        int myDays = 0;
+        while (currentDay.CompareTo(christmasDay) < 0)
+        {
+            currentDay = currentDay.AddDays(1);
+            myDays++;
+        }
+        daysGui.text = myDays.ToString();
+    }
+
+
+    private void TotalDaysToChristmasV3()
+    {
+        double myDays = christmasDay.Subtract(currentDay).TotalDays;
+        daysGui.text = myDays.ToString();
+    
+    }
+
+    private double TotalDaysToChristmasV4()
+    {
+    
+        return christmasDay.Subtract(currentDay).TotalDays;
     }
 }
